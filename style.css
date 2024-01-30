@@ -1,11 +1,11 @@
-.c{
+.colorPalette{
     background-color: #F1EFEF;
     background-color: #CCC8AA;
     background-color: #7D7C7C;
     background-color: #191717;
 }
 body{
-    background: #F1EFEF;
+    background: #191717;
 }
 /* .fs-4{
     font-family: 'Montserrat', sans-serif;
@@ -14,14 +14,14 @@ body{
 } */
 h1{
     /* font-family: 'Montserrat', sans-serif; */
-    filter: drop-shadow(5px 15px 15px #393E46);
+    /* filter: drop-shadow(5px 15px 15px #393E46); */
     color: #222831;
     background-image: linear-gradient(
         -225deg,
-        #191717 0%,
-        #CCC8AA 29%,
-        #7D7C7C 67%,
-        #191717 100%
+        #CCC8AA50 0%,
+        #191717 29%,
+        #191717 67%,
+        #CCC8AA 100%
       );
     background-clip: border-box;
     background-size: 200% auto;
@@ -139,4 +139,7 @@ h2{
 }
 .logo{
     filter: drop-shadow(2px 5px 5px #393E46);
+}
+#demo{
+    color: #CCC8AA50;
 }
