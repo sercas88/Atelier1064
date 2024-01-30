@@ -1,0 +1,142 @@
+.c{
+    background-color: #F1EFEF;
+    background-color: #CCC8AA;
+    background-color: #7D7C7C;
+    background-color: #191717;
+}
+body{
+    background: #F1EFEF;
+}
+/* .fs-4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #222831;
+} */
+h1{
+    /* font-family: 'Montserrat', sans-serif; */
+    filter: drop-shadow(5px 15px 15px #393E46);
+    color: #222831;
+    background-image: linear-gradient(
+        -225deg,
+        #191717 0%,
+        #CCC8AA 29%,
+        #7D7C7C 67%,
+        #191717 100%
+      );
+    background-clip: border-box;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s linear infinite;
+}
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+    }
+}
+h2{
+    color: #222831;
+}
+@media (max-width: 2000px) {
+    .display {
+        font-size: 8rem;
+    }
+}
+@media (max-width: 600px) {
+    .display {
+        font-size: 100px;
+    }
+}
+.nav-link{
+    color: #393E46;
+    font-size: small;
+}
+.nav-link:hover{
+    color: #EEEEEE;
+}
+.dropdown-menu{
+    background-color: #EEEEEE;
+}
+.slogan{
+    color: #393E46;
+}
+#about{
+    background-color: #EEEEEE;
+}
+.card{
+    background-color: #393E46;
+    filter: drop-shadow(5px 5px 5px #222831);
+    border-color: #EEEEEE50;
+    border-width: 1px;
+}
+#pricing{
+    background-color: #EEEEEE;
+}
+.pricing-card{
+    background-color: #EEEEEE;
+    border-color: #393E46;
+    border-width: 1px;
+}
+.plan{
+    color: #8b8f94;;
+}
+.fixed-top{
+    background: #FFD369;
+}
+@media only screen and (min-width: 900px) {
+    #hero {
+      margin-top: 180px;
+    }
+}
+.CTO{
+    background-color: #393E46;
+    border-color: #FFD369;
+    color: #FFD369;
+    font-weight: 400;
+    filter: drop-shadow(1px 2px 2px #393E46);
+}
+.CTO:hover{
+    background-color: #FFD369;
+    border-color: #222831;
+    color: #222831;
+}
+.CTO2{
+    background-color: #FFD369;
+    border-color: #FFD369;
+    color: #222831;
+    font-weight: 400;
+    filter: drop-shadow(1px 1px 1px #222831);
+}
+.CTO2:hover{
+    background-color: #393E46;
+    border-color: #FFD369;
+    color: #EEEEEE;
+}
+.CTO3{
+    background-color: #FFD369;
+    border-color: #FFD369;
+    color: #222831;
+    font-weight: 400;
+    filter: drop-shadow(1px 1px 1px #393E46);
+}
+.CTO3:hover{
+    background-color: #393E46;
+    border-color: #FFD369;
+    color: #EEEEEE;
+}
+#contact{
+    background-color: #EEEEEE;
+}
+#myCarousel1 {
+    max-height: 300px;
+    max-width: 100%;
+    overflow:hidden
+}
+#myCarousel {
+    max-height: 600px;
+    max-width: 100%;
+    overflow:hidden
+}
+.logo{
+    filter: drop-shadow(2px 5px 5px #393E46);
+}
