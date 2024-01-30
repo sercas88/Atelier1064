@@ -1,11 +1,11 @@
 .colorPalette{
-    background-color: #F1EFEF;
-    background-color: #CCC8AA;
-    background-color: #7D7C7C;
-    background-color: #191717;
+    background-color: #0B2447;
+    background-color: #19376D;
+    background-color: #576CBC;
+    background-color: #A5D7E8;
 }
 body{
-    background: #191717;
+    background: #0B2447;
 }
 /* .fs-4{
     font-family: 'Montserrat', sans-serif;
@@ -15,13 +15,13 @@ body{
 h1{
     /* font-family: 'Montserrat', sans-serif; */
     /* filter: drop-shadow(5px 15px 15px #393E46); */
-    color: #222831;
+    color: #0B2447;
     background-image: linear-gradient(
         -225deg,
-        #CCC8AA50 0%,
-        #191717 29%,
-        #191717 67%,
-        #CCC8AA 100%
+        #A5D7E8 0%,
+        #0B2447 29%,
+        #0B2447 67%,
+        #A5D7E8 100%
       );
     background-clip: border-box;
     background-size: 200% auto;
@@ -141,5 +141,5 @@ h2{
     filter: drop-shadow(2px 5px 5px #393E46);
 }
 #demo{
-    color: #CCC8AA50;
+    color: #B5FFD940;
 }
